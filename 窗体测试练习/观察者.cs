@@ -32,7 +32,7 @@ namespace 窗体测试练习
              */
             #endregion
 
-            #region 第一版*
+            #region 第一版**
             秘书类 前台小微 = new 秘书类();
             前台小微.Mylistbox = listBox2;
            
