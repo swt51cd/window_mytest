@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace 窗体测试练习
@@ -16,7 +13,8 @@ namespace 窗体测试练习
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new 观察者());
+            //Application.Run(new 观察者());
+            Application.Run(new Dog回调事件());
         }
     }
 }

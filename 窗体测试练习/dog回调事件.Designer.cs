@@ -1,6 +1,6 @@
 ﻿namespace 窗体测试练习
 {
-    partial class dog回调事件
+    partial class Dog回调事件
     {
         /// <summary>
         /// 必需的设计器变量。

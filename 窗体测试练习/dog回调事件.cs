@@ -1,23 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics.Tracing;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace 窗体测试练习
 {
-    public partial class dog回调事件 : Form
+    public partial class Dog回调事件 : Form
     {
         private Button button1;
         private Button button2;
         private ListBox listBox1;
 
-        public dog回调事件()
+        public Dog回调事件()
         {
             InitializeComponent();
         }
@@ -61,6 +53,7 @@ namespace 窗体测试练习
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -81,17 +74,21 @@ namespace 窗体测试练习
             this.listBox1.Size = new System.Drawing.Size(685, 352);
             this.listBox1.TabIndex = 2;
             // 
-            // 回调事件
+            // Dog回调事件
             // 
             this.ClientSize = new System.Drawing.Size(880, 410);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "回调事件";
+            this.Name = "Dog回调事件";
             this.ResumeLayout(false);
 
         }
-       
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     /*
     * 在进行回调函数/事件触发的编写时，要遵循：  事件发送者监听，当监听到某一临界条件成立后，将事件告知事件接收者，
@@ -128,7 +125,7 @@ namespace 窗体测试练习
 
     class Host//事件接收者
     {
-        private ListBox _listBox;
+        private readonly ListBox _listBox;
 
         //４.编写事件处理程序
         void HostHandleAlarm(object sender, EventArgs e)
