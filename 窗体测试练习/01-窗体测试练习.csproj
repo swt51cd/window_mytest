@@ -7,7 +7,7 @@
     <ProjectGuid>{CA5D0104-AD88-4BBC-A1D9-656252D1ED14}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>窗体测试练习</RootNamespace>
-    <AssemblyName>窗体测试练习</AssemblyName>
+    <AssemblyName>01-窗体测试练习</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -80,6 +80,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="观察者.resx">
       <DependentUpon>观察者.cs</DependentUpon>
