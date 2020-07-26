@@ -4,7 +4,7 @@ using System.Windows.Forms;
 namespace 窗体测试练习
 {
     #region 早期版本
-    class 观察者模式类
+     class 观察者模式类
     {
         public ListBox Mylistbox { get; set; } = null;
         private IList<Observer投资者> myobserver = new List<Observer投资者>();

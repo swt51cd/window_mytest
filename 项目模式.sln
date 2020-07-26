@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-窗体测试练习", "窗体测试练习\01-窗体测试练习.csproj", "{CA5D0104-AD88-4BBC-A1D9-656252D1ED14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "模式", "窗体测试练习\模式.csproj", "{CA5D0104-AD88-4BBC-A1D9-656252D1ED14}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-CrawlerForm", "CrawlerForm\02-CrawlerForm.csproj", "{42C9DF90-54FF-42C9-B793-B045DDC53969}"
 EndProject
