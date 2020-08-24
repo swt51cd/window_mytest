@@ -41,7 +41,7 @@ namespace DesignPattern
 
             #region Dictionary
             int? myint=null;
-            DictionayOperate.myDictionary(myint);
+            DictionayOperate.MyDictionary(myint);
             #endregion
 
             Console.ReadKey();

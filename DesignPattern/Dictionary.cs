@@ -6,7 +6,7 @@ namespace DesignPattern
 {
     class DictionayOperate
     {
-        public static void myDictionary(int? vint)
+        public static void MyDictionary(int? vint)
         {   /*
             Dictionary<string, string> openWith = new Dictionary<string, string>();
             openWith.Add("txt", "notepad.exe");
