@@ -40,10 +40,14 @@ namespace DesignPattern
             #endregion
 
             #region Dictionary
-            int? myint=null;
-            DictionayOperate.MyDictionary(myint);
+            //int? myint=null;
+            //DictionayOperate.MyDictionary(myint);
             #endregion
 
+            #region 实现Using类
+
+            实现Using类.Using_Main();
+            #endregion
             Console.ReadKey();
 
         }

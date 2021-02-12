@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern", "DesignPatt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteApp", "SqliteApp\SqliteApp.csproj", "{40E47D6D-F40A-40DA-A696-1133721153F0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "责任链模式", "责任链模式\责任链模式.csproj", "{EE4D67DD-2F3A-4990-93E9-2340DE448157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "迭代器", "迭代器\迭代器.csproj", "{0F579277-376B-441B-8254-43343C2035F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{40E47D6D-F40A-40DA-A696-1133721153F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40E47D6D-F40A-40DA-A696-1133721153F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40E47D6D-F40A-40DA-A696-1133721153F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE4D67DD-2F3A-4990-93E9-2340DE448157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4D67DD-2F3A-4990-93E9-2340DE448157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4D67DD-2F3A-4990-93E9-2340DE448157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4D67DD-2F3A-4990-93E9-2340DE448157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F579277-376B-441B-8254-43343C2035F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F579277-376B-441B-8254-43343C2035F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F579277-376B-441B-8254-43343C2035F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F579277-376B-441B-8254-43343C2035F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
